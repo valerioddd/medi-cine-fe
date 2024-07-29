@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.transition-transform {
+  transition: transform 0.5s;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-gray-light {
+  background-color: #F5F5F5;
+}
+
+.text-blue-hospital {
+  color: #3A7CA5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.space-x-2 > * + * {
+  margin-left: 0.5rem;
+}
